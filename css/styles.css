@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0 1rem 0;
+}
+
+header nav a, section div h1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.3rem;
+}
+
+header nav a:hover {
+    color: #50848e;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section div h1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+section div button {
+    margin-top: 1rem;
+}
