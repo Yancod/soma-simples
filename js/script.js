@@ -8,5 +8,7 @@ btnSoma.addEventListener("click", function () {
     const numbertwo = +segNum.value
     const somaGeral = numberOne + numbertwo
     resNum.textContent = somaGeral;
+    numberOne = ""
+    numbertwo = ""
   });
 
